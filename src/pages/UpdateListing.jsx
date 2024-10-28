@@ -216,7 +216,7 @@ const UpdateListing = () => {
             placeholder="Address"
             className="border p-3 rounded-lg "
             id="address"
-            required
+            required   
             onChange={handleChange}
             value={formData.address}
           />

@@ -232,7 +232,7 @@ const CreateListing = () => {
                   className=" w-5"
                   onChange={handleChange}
                   checked={formData.parking}
-                />
+                />  
                 <span>Parking Spot</span>
               </div>
             </div>
