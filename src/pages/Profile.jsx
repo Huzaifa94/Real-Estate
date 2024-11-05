@@ -279,7 +279,7 @@ const handleListingDelete = async(listingId) => {
                 className="h-16 w-16 object-contain"
               />
             </Link>
-            <Link to={`listing/${listing._id}`}>
+            <Link to={`/listing/${listing._id}`}>
             
             <p className="text-slate-700">{listing.name}</p>
             </Link>
