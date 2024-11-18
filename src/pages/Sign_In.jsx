@@ -30,11 +30,14 @@ const Sign_In = () => {
       });
 
       const data = await res.json();
+      console.log(data);
+      
       if (!data.success) {
         dispatch(signInFailure(data.message || "Sign-in failed"));
         return;
       }
-
+     
+      
       dispatch(signInSuccess(data));
       navigate('/');
     } catch (error) {
